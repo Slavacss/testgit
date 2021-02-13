@@ -1,0 +1,22 @@
+/* #languages li{
+    color: red;
+}
+#languages > li{
+    color: black;
+}
+#e-slavic{
+    font-style: italic;
+}
+#e-slavic~li{
+    color: green;
+}
+#e-slavic+li{
+    color: blue;
+} */
+li:nth-child(n+2){
+    margin-top: 1.5em;
+}
+
+ol{
+    background-color: darkgray;
+}
